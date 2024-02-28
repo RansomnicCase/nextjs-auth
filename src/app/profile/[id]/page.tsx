@@ -1,10 +1,11 @@
 export default function UserProfile({params}:any): JSX.Element{
     return( 
-    <div className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        <h1>Profile</h1>
+    <div className="flex flex-col items-center
+    justify-center min-h-screen py-2">
+        <h1 className="text-5xl mr-6 p-2 rounded bg-red">Profile</h1>
         <hr />
-        <p className="text-4xl text-white">profile page
-        <span className="text-orange ml-4 bg-black">{params.id}</span>
+        <p className="text-4xl">profile page
+        <span className="p-2 rounded ml-3 bg-orange-500 text-black">{params.id}</span>
         </p>
         
     </div>

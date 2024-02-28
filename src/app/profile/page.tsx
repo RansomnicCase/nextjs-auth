@@ -1,8 +1,9 @@
 export default function ProfilePage(): JSX.Element{
     return( 
-        <div className="flex items-center justify-center mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <div className="text-5xl flex flex-col items-center
+        justify-center min-h-screen py-2">
         Profile
-    </div>
+        </div>
     
     )
 }
